@@ -1,0 +1,17 @@
+{
+    "Meta Data": {
+        "1. Information": "Monthly Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "MSFT",
+        "3. Last Refreshed": "2024-04-11",
+        "4. Time Zone": "US/Eastern"
+    },
+    "Monthly Time Series": {
+        "1999-12-31": {
+            "1. open": "91.0600",
+            "2. high": "119.9400",
+            "3. low": "90.8700",
+            "4. close": "116.7500",
+            "5. volume": "630488900"
+        }
+    }
+}

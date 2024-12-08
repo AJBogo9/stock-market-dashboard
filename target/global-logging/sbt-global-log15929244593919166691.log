@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Omistaja\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Omistaja\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Amazon.com Inc. Java 17.0.10)
+[debug]       Load.loadUnit: plugins took 468.802ms
+[debug]       Load.loadUnit: defsScala took 0.925ms
+[debug] [Loading] Scanning directory C:\Users\Omistaja\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Omistaja\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 58.3551 ms
+[debug]           Load.resolveProject(global-plugins) took 137.7124ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Omistaja\.sbt\1.0\plugins, plugins: List(<none>))) took 272.2848ms
+[debug] [Loading] Done in C:\Users\Omistaja\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 333.7582ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4654ms
+[debug]     Load.loadUnit(file:/C:/Users/Omistaja/.sbt/1.0/plugins/, ...) took 830.0603ms
+[debug]   Load.apply: load took 1964.1059ms
+[debug]   Load.apply: resolveProjects took 26.9785ms
+[debug]   Load.apply: finalTransforms took 186.3886ms
+[debug]   Load.apply: config.delegates took 20.0971ms
+[debug]   Load.apply: Def.make(settings)... took 3093.1578ms
+[debug]   Load.apply: structureIndex took 413.2256ms
+[debug]   Load.apply: mkStreams took 3.4898ms
+[info] loading global plugins from C:\Users\Omistaja\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 14151.8053ms
+[debug]           Load.loadUnit: plugins took 548.4248ms
+[debug]           Load.loadUnit: defsScala took 0.0094ms
+[debug] [Loading] Scanning directory C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard\project
+[debug]             Load.loadUnit: mkEval took 16.2749ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 28.2835 ms
+[info] loading settings for project stockdatadashboard-build from idea1.sbt ...
+[debug]               Load.resolveProject(stockdatadashboard-build) took 30.7019ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id stockdatadashboard-build, base: C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard\project, plugins: List(<none>))) took 61.9072ms
+[debug] [Loading] Done in C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard\project, returning: (stockdatadashboard-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1780.2213ms
+[debug]           Load.loadUnit: cleanEvalClasses took 65.6098ms
+[debug]         Load.loadUnit(file:/C:/Users/Omistaja/Documents/Koulu/Yliopisto/Ohjelmointi/Ohjelmointistudio%202/DataDashboard/StockDataDashboard/project/, ...) took 2396.53ms
+[debug]       Load.apply: load took 2402.0321ms
+[debug]       Load.apply: resolveProjects took 0.5278ms
+[debug]       Load.apply: finalTransforms took 56.2082ms
+[debug]       Load.apply: config.delegates took 0.9585ms
+[debug]       Load.apply: Def.make(settings)... took 301.7532ms
+[debug]       Load.apply: structureIndex took 432.9137ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 11693.0943ms
+[debug]     Load.loadUnit: defsScala took 0.0116ms
+[debug] [Loading] Scanning directory C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard
+[debug]       Load.loadUnit: mkEval took 1.1325ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 5.5451 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 112.6213ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard, plugins: List(<none>))) took 124.431ms
+[debug] [Loading] Done in C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 19068.0831ms
+[debug]     Load.loadUnit: cleanEvalClasses took 83.7124ms
+[debug]   Load.loadUnit(file:/C:/Users/Omistaja/Documents/Koulu/Yliopisto/Ohjelmointi/Ohjelmointistudio%202/DataDashboard/StockDataDashboard/, ...) took 30849.2556ms
+[debug] Load.apply: load took 30856.2948ms
+[debug] Load.apply: resolveProjects took 0.4109ms
+[debug] Load.apply: finalTransforms took 70.4869ms
+[debug] Load.apply: config.delegates took 0.7993ms
+[debug] Load.apply: Def.make(settings)... took 529.7046ms
+[debug] Load.apply: structureIndex took 202.0543ms
+[debug] Load.apply: mkStreams took 0.2239ms
+[info] set current project to StockDataDashboard (in build file:/C:/Users/Omistaja/Documents/Koulu/Yliopisto/Ohjelmointi/Ohjelmointistudio%202/DataDashboard/StockDataDashboard/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 59064 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 59064, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to StockDataDashboard (in build file:/C:/Users/Omistaja/Documents/Koulu/Yliopisto/Ohjelmointi/Ohjelmointistudio%202/DataDashboard/StockDataDashboard/)
+[debug] > Exec(idea-shell, None, None)

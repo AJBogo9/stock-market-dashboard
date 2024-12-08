@@ -1,0 +1,37 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[error] java.lang.RuntimeException: java.lang.UnsatisfiedLinkError: no glass in java.library.path: C:\Users\Omistaja\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files\PowerShell\7\;C:\Program Files\PowerShell\7-preview\preview;C:\Users\Omistaja\.cargo\bin;C:\Users\Omistaja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Omistaja\AppData\Local\Programs\Python\Python310\;C:\Users\Omistaja\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Users\Omistaja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Omistaja\.deno\bin;C:\Users\Omistaja\.fly\bin;C:\Users\Omistaja\AppData\Roaming\npm;.
+[error] 	at com.sun.javafx.tk.quantum.QuantumToolkit.startup(QuantumToolkit.java:300)
+[error] 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:292)
+[error] 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:162)
+[error] 	at com.sun.javafx.application.LauncherImpl.startToolkit(LauncherImpl.java:651)
+[error] 	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:671)
+[error] 	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:195)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:840)
+[error] Caused by: java.lang.UnsatisfiedLinkError: no glass in java.library.path: C:\Users\Omistaja\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files\PowerShell\7\;C:\Program Files\PowerShell\7-preview\preview;C:\Users\Omistaja\.cargo\bin;C:\Users\Omistaja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Omistaja\AppData\Local\Programs\Python\Python310\;C:\Users\Omistaja\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Users\Omistaja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Omistaja\.deno\bin;C:\Users\Omistaja\.fly\bin;C:\Users\Omistaja\AppData\Roaming\npm;.
+[error] 	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434)
+[error] 	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818)
+[error] 	at java.base/java.lang.System.loadLibrary(System.java:1993)
+[error] 	at com.sun.glass.utils.NativeLibLoader.loadLibraryInternal(NativeLibLoader.java:166)
+[error] 	at com.sun.glass.utils.NativeLibLoader.loadLibrary(NativeLibLoader.java:54)
+[error] 	at com.sun.glass.ui.Application.loadNativeLibrary(Application.java:112)
+[error] 	at com.sun.glass.ui.Application.loadNativeLibrary(Application.java:120)
+[error] 	at com.sun.glass.ui.win.WinApplication.access$000(WinApplication.java:41)
+[error] 	at com.sun.glass.ui.win.WinApplication$1.run(WinApplication.java:107)
+[error] 	at com.sun.glass.ui.win.WinApplication$1.run(WinApplication.java:87)
+[error] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+[error] 	at com.sun.glass.ui.win.WinApplication.<clinit>(WinApplication.java:87)
+[error] 	at com.sun.glass.ui.win.WinPlatformFactory.createApplication(WinPlatformFactory.java:39)
+[error] 	at com.sun.glass.ui.win.WinPlatformFactory.createApplication(WinPlatformFactory.java:36)
+[error] 	at com.sun.glass.ui.Application.run(Application.java:146)
+[error] 	at com.sun.javafx.tk.quantum.QuantumToolkit.startup(QuantumToolkit.java:290)
+[error] 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:292)
+[error] 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:162)
+[error] 	at com.sun.javafx.application.LauncherImpl.startToolkit(LauncherImpl.java:651)
+[error] 	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:671)
+[error] 	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:195)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:840)
+[error] (Compile / run) java.lang.UnsatisfiedLinkError: no glass in java.library.path: C:\Users\Omistaja\.jdks\corretto-17.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Program Files\PowerShell\7\;C:\Program Files\PowerShell\7-preview\preview;C:\Users\Omistaja\.cargo\bin;C:\Users\Omistaja\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Omistaja\AppData\Local\Programs\Python\Python310\;C:\Users\Omistaja\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Users\Omistaja\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Omistaja\.deno\bin;C:\Users\Omistaja\.fly\bin;C:\Users\Omistaja\AppData\Roaming\npm;.
+[error] Total time: 7 s, completed 6.2.2024 klo 17.16.52
+[debug] > Exec(idea-shell, None, None)

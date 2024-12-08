@@ -1,0 +1,14 @@
+{
+  "Apple": {
+    "Buy Date": "2006-10-31",
+    "Quantity": "200"
+  },
+  "Nvidia": {
+    "Buy Date": "2019-06-28",
+    "Quantity": "200"
+  },
+  "Microsoft": {
+    "Buy Date": "2011-01-31",
+    "Quantity": "200"
+  }
+}

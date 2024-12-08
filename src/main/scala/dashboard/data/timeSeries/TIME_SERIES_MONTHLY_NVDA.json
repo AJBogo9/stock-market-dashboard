@@ -1,0 +1,17 @@
+{
+    "Meta Data": {
+        "1. Information": "Monthly Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "NVDA",
+        "3. Last Refreshed": "2024-04-11",
+        "4. Time Zone": "US/Eastern"
+    },
+    "Monthly Time Series": {
+        "1999-12-31": {
+            "1. open": "34.6300",
+            "2. high": "47.4400",
+            "3. low": "34.6300",
+            "4. close": "46.9400",
+            "5. volume": "10244900"
+        }
+    }
+}

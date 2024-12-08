@@ -1,0 +1,7 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Omistaja\Documents\Koulu\Yliopisto\Ohjelmointi\Ohjelmointistudio 2\DataDashboard\StockDataDashboard\target\scala-3.3.1\classes ...
+[info] done compiling
+[success] Total time: 221 s (03:41), completed 6.2.2024 klo 17.16.39
+[debug] > Exec(idea-shell, None, None)
